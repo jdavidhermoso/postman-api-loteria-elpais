@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "8f80d6a5-518d-4611-a03b-8960a8ab2638",
+		"name": "API-Loteria-ElPais",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listado premios 2019",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.elpais.com/ws/LoteriaNavidadPremiados?n=resumen",
+					"protocol": "https",
+					"host": [
+						"api",
+						"elpais",
+						"com"
+					],
+					"path": [
+						"ws",
+						"LoteriaNavidadPremiados"
+					],
+					"query": [
+						{
+							"key": "n",
+							"value": "resumen"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "cb8830e7-2804-4cfc-8ced-b8af8a58036b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b2d2b68b-fbb8-4eaf-8927-a0a1cd516992",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
