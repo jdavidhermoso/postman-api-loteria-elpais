@@ -1,6 +1,7 @@
 on:
+  push:
   schedule:
-    - cron: "00 20 23 8 *"
+    - cron: '0 0 * * * '
 
 jobs:
   update-lottery-results:

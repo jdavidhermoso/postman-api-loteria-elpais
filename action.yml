@@ -1,6 +1,5 @@
-name: 'Hello World'
+name: 'Update Lottery Results'
 description: 'Prueba API loteria El Pais'
-inputs:
 outputs:
   time: # id of output
     description: 'Time used'
