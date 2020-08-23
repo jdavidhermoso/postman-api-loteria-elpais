@@ -1,0 +1,9 @@
+name: 'Hello World'
+description: 'Prueba API loteria El Pais'
+inputs:
+outputs:
+  time: # id of output
+    description: 'Time used'
+runs:
+  using: 'node12'
+  main: 'index.js'
